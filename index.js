@@ -5,7 +5,7 @@ function destructivelyAppendKitten(name) {
   kittens.push(name)
   return kittens
 }
-function destructivelyPrependKitten("Garfield") {
-  kittens.pop("Garfield")
+function destructivelyPrependKitten(name) {
+  kittens.pop(name)
   return kittens
 }
